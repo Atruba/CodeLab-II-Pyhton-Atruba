@@ -1,0 +1,22 @@
+class Dog:
+    
+    def __init__(self, name, age, color, weight):
+        self.name = name
+        self.age = age
+        self.color = color
+        self.weight = weight
+    def display(self):
+        print("Dog characteristics")
+        print("Name  : ",self.name)
+        print("Age : ", self.age)
+        print("Color :",self.color)
+        print("weight : ", self.weight) 
+ 
+Dog1 = Dog("Tommy",2,"White",4.80)
+Dog1.display()
+Dog2 = Dog("Snowbie",4,"Black",2.0)
+Dog2.display()
+
+
+
+
