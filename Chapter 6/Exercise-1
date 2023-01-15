@@ -1,0 +1,28 @@
+import math
+import numpy as np
+
+
+a = 2.3
+
+# returning the floor
+print ("The ceil of 2.3 is : ", end ="") 
+print(math.ceil(a))
+
+# returning the floor
+print ("The floor of 2.3 is : ", end ="") 
+print(math.floor(a))
+
+a=5
+    
+# returning the factorial
+print ("The factorial of 5 is : ", end ="") 
+print (math.factorial(a))
+
+# returning the cube root
+print("The cube root of 2 is:",np.cbrt(2))
+
+a=16
+
+# returning the square root
+print ("The square root of 16 is : ", end ="") 
+print(math.sqrt(a)) 
