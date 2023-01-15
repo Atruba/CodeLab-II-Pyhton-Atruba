@@ -1,0 +1,7 @@
+list = []
+n = int(input("Enter 5 numbers: "))
+for i in range(0, n):
+            lst = int(input())
+            list.append(lst) 
+        
+print(list)
